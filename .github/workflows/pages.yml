@@ -37,7 +37,7 @@ jobs:
 
       - name: Rename Folder
         run: |-
-          mkdir open-docs-release
+          mkdir docs/.vuepress/dist/open-docs-release
           mv docs/.vuepress/dist/*  docs/.vuepress/dist/open-docs-release
 
       - name: Deploy to GitHub Pages
