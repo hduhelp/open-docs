@@ -37,8 +37,9 @@ jobs:
 
       - name: Rename Folder
         run: |-
-          mkdir docs/.vuepress/dist/open-docs-release
-          mv docs/.vuepress/dist/*  docs/.vuepress/dist/open-docs-release
+          mkdir docs/.vuepress/release
+          mkdir docs/.vuepress/release/open-docs-release
+          mv docs/.vuepress/dist/*  docs/.vuepress/release/open-docs-release
 
       - name: Deploy to GitHub Pages
         uses: crazy-max/ghaction-github-pages@v3
