@@ -14,6 +14,7 @@ jobs:
 
     env:
       NODE_VERSION: '16'
+      QCLOUD_BUCKET: 'open-docs-1258813882'
 
     steps:
       - uses: actions/checkout@v3
@@ -35,17 +36,13 @@ jobs:
       - name: Build documentation site
         run: pnpm docs:release
 
-      - name: Rename Folder
-        run: |-
-          mkdir docs/.vuepress/release
-          mkdir docs/.vuepress/release/open-docs-release
-          mv docs/.vuepress/dist/*  docs/.vuepress/release/open-docs-release
-
-      - name: Deploy to GitHub Pages
-        uses: crazy-max/ghaction-github-pages@v3
-        with:
-          repo: hduhelp/open-docs-release
-          target_branch: main
-          build_dir: docs/.vuepress/release
-        env:
-          GH_PAT: ${{ secrets.GH_PAGES_TOKEN }}
+      - name: Deploy to Tencent COS
+          env:
+            SECRET_ID: ${{ secrets.OPEN_DOCS_QCLOUD_KEY }}
+            SECRET_KEY: ${{ secrets.OPEN_DOCS_QCLOUD_SECRET }}
+            BUCKET: ${{ env.QCLOUD_BUCKET }}
+            REGION: ap-shanghai
+          run: |
+            sudo pip install coscmd
+            coscmd config -a ${SECRET_ID} -s ${SECRET_KEY} -b ${BUCKET} -e cos.accelerate.myqcloud.com
+            coscmd upload -rs docs/.vuepress/dist/ /docs/
