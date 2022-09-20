@@ -49,7 +49,7 @@ export default {
       themeData: {
         foo: 'foo',
         locales: {
-          '/zh/': {
+          '/': {
             foo: 'zh-foo',
           },
         },

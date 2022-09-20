@@ -6,7 +6,7 @@ sidebar: auto
 
 ## 概览
 
-项目仓库借助于 [pnpm 工作空间](https://pnpm.io/zh/workspaces) 来实现 [Monorepo](https://en.wikipedia.org/wiki/Monorepo) ，存放了多个互相关联的独立 Package 。
+项目仓库借助于 [pnpm 工作空间](https://pnpm.io/workspaces) 来实现 [Monorepo](https://en.wikipedia.org/wiki/Monorepo) ，存放了多个互相关联的独立 Package 。
 
 在 `packages` 目录下：
 
@@ -32,7 +32,7 @@ sidebar: auto
 开发要求：
 
 - [Node.js](http://nodejs.org) **version 14.18.0+**
-- [pnpm](https://pnpm.io/zh/) **version 7+**
+- [pnpm](https://pnpm.io/) **version 7+**
 
 克隆代码仓库，并安装依赖：
 

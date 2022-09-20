@@ -26,10 +26,10 @@ export interface SiteData extends SiteLocaleData {
    *     title: 'Hello',
    *     description: 'This will take effect under /en/ subpath',
    *   },
-   *   '/zh/': {
+   *   '/': {
    *     lang: 'zh-CN',
    *     title: '你好',
-   *     description: '它将会在 /zh/ 子路径下生效',
+   *     description: '它将会在 / 子路径下生效',
    *   }
    * }
    */

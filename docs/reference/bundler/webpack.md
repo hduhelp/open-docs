@@ -66,7 +66,7 @@ export default defineUserConfig({
   `vue-loader` 的配置项。
 
 - 参考：
-  - [vue-loader > 选项参考](https://vue-loader.vuejs.org/zh/options.html)
+  - [vue-loader > 选项参考](https://vue-loader.vuejs.org/options.html)
 
 ### postcss
 

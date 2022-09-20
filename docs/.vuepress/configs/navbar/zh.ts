@@ -101,14 +101,14 @@ export const navbarZh: NavbarConfig = [
           '/advanced/theme.md',
           {
             text: 'Cookbook',
-            link: '/zh/advanced/cookbook/',
+            link: '/advanced/cookbook/',
           },
         ],
       },
       {
         text: '其他资源',
         children: [
-          '/zh/contributing.md',
+          '/contributing.md',
           {
             text: 'Awesome VuePress',
             link: 'https://github.com/vuepress/awesome-vuepress',
@@ -126,11 +126,11 @@ export const navbarZh: NavbarConfig = [
       },
       {
         text: 'v1.x',
-        link: 'https://v1.vuepress.vuejs.org/zh/',
+        link: 'https://v1.vuepress.vuejs.org/',
       },
       {
         text: 'v0.x',
-        link: 'https://v0.vuepress.vuejs.org/zh/',
+        link: 'https://v0.vuepress.vuejs.org/',
       },
     ],
   },

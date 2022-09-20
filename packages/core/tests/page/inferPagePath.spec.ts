@@ -9,7 +9,7 @@ const app = createBaseApp({
   locales: {
     '/': {},
     '/en/': {},
-    '/zh/': {},
+    '/': {},
   },
 })
 const appWithoutLocales = createBaseApp({

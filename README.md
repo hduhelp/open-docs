@@ -1,6 +1,6 @@
 # 杭电助手开发文档
 
-本仓库是杭电助手文档项目，基于[vuepress2](https://v2.vuepress.vuejs.org/zh/)构建。
+本仓库是杭电助手文档项目，基于[vuepress2](https://v2.vuepress.vuejs.org/)构建。
 
 ### 2、本地克隆代码开发
 

@@ -74,7 +74,7 @@ export default defineClientConfig({
 
 ### 使用 Router 方法
 
-你可以使用 vue-router 提供的 [Router 方法](https://router.vuejs.org/zh/api/index.html#router-方法) 。例如，添加导航钩子：
+你可以使用 vue-router 提供的 [Router 方法](https://router.vuejs.org/api/index.html#router-方法) 。例如，添加导航钩子：
 
 ```ts
 import { defineClientConfig } from '@vuepress/client'

@@ -108,7 +108,7 @@ export default defineUserConfig({
         facetFilters: ['tags:v2'],
       },
       locales: {
-        '/zh/': {
+        '/': {
           placeholder: '搜索文档',
           translations: {
             button: {
