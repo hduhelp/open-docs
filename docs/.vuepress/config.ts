@@ -21,7 +21,7 @@ const isProd = process.env.NODE_ENV === 'production'
 
 export default defineUserConfig({
   // set site base to default value
-  base: '/',
+  base: '/docs/',
 
   // extra tags in `<head>`
   head,
@@ -47,25 +47,11 @@ export default defineUserConfig({
 
     // theme-level locales config
     locales: {
-      /**
-       * English locale config
-       *
-       * As the default locale of @vuepress/theme-default is English,
-       * we don't need to set all of the locale fields
-       */
-      '/': {
-        // navbar
-        navbar: navbarEn,
-        // sidebar
-        sidebar: sidebarEn,
-        // page meta
-        editLinkText: 'Edit this page on GitHub',
-      },
 
       /**
        * Chinese locale config
        */
-      '/zh/': {
+      '/': {
         // navbar
         navbar: navbarZh,
         selectLanguageName: '简体中文',
