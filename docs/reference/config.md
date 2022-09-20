@@ -20,8 +20,8 @@
   `base` 将会作为前缀自动地插入到所有以 `/` 开始的其他选项的链接中，所以你只需要指定一次。
 
 - 参考：
-  - [指南 > 静态资源 > Base Helper](../guide/assets.md#base-helper)
-  - [指南 > 部署](../guide/deployment.md)
+  - [指南 > 静态资源 > Base Helper](../develop/assets.md#base-helper)
+  - [指南 > 部署](../develop/deployment.md)
 
 ### lang
 
@@ -129,7 +129,7 @@ export default {
   - [head](#head)
 
 - 参考：
-  - [指南 > I18n](../guide/i18n.md)
+  - [指南 > I18n](../develop/i18n.md)
 
 ## 主题配置
 
@@ -144,7 +144,7 @@ export default {
   如果不设置该选项，将会使用默认主题。
 
 - 参考：
-  - [指南 > 主题](../guide/theme.md)
+  - [指南 > 主题](../develop/theme.md)
   - [默认主题 > 配置](./default-theme/config.md)
 
 ## 打包工具配置
@@ -163,7 +163,7 @@ export default {
   - 使用 `vuepress-webpack` 时，默认的打包工具是 Webpack 。
 
 - 参考：
-  - [指南 > 打包工具](../guide/bundler.md)
+  - [指南 > 打包工具](../develop/bundler.md)
   - [打包工具 > Vite](./bundler/vite.md)
   - [打包工具 > Webpack](./bundler/webpack.md)
 
@@ -214,7 +214,7 @@ VuePress 在开发和构建时会加载临时文件，因此临时文件目录�
   指定 Public 文件目录。
 
 - 参考：
-  - [指南 > 静态资源 > Public 文件](../guide/assets.md#public-文件)
+  - [指南 > 静态资源 > Public 文件](../develop/assets.md#public-文件)
 
 ### debug
 
@@ -347,7 +347,7 @@ VuePress 在开发和构建时会加载临时文件，因此临时文件目录�
 
 - 参考：
   - [markdown-it > Init with presets and options](https://github.com/markdown-it/markdown-it#init-with-presets-and-options)
-  - [指南 > Markdown > 语法扩展](../guide/markdown.md#语法扩展)
+  - [指南 > Markdown > 语法扩展](../develop/markdown.md#语法扩展)
 
 ### markdown.anchor
 
@@ -374,7 +374,7 @@ const defaultOptions = {
   设置为 `false` 可以禁用该插件。
 
 - 参考：
-  - [指南 > Markdown > 语法扩展 > 标题锚点](../guide/markdown.md#标题锚点)
+  - [指南 > Markdown > 语法扩展 > 标题锚点](../develop/markdown.md#标题锚点)
 
 ### markdown.assets
 
@@ -401,7 +401,7 @@ const defaultOptions = {
   设置为 `false` 可以禁用该插件。
 
 - 参考：
-  - [指南 > Markdown > 语法扩展 > 代码块](../guide/markdown.md#代码块)
+  - [指南 > Markdown > 语法扩展 > 代码块](../develop/markdown.md#代码块)
 
 #### markdown.code.highlightLines
 
@@ -414,7 +414,7 @@ const defaultOptions = {
   是否启用代码块行高亮。
 
 - 参考：
-  - [指南 > Markdown > 语法扩展 > 代码块 > 行高亮](../guide/markdown.md#行高亮)
+  - [指南 > Markdown > 语法扩展 > 代码块 > 行高亮](../develop/markdown.md#行高亮)
 
 #### markdown.code.lineNumbers
 
@@ -430,7 +430,7 @@ const defaultOptions = {
   - 数字 `number` 代表显示行号所需的最少行数。例如，如果你将它设置为 `4` ，那么只有在你的代码块包含至少 4 行代码时才会启用行号。
 
 - 参考：
-  - [指南 > Markdown > 语法扩展 > 代码块 > 行号](../guide/markdown.md#行号)
+  - [指南 > Markdown > 语法扩展 > 代码块 > 行号](../develop/markdown.md#行号)
 
 #### markdown.code.preWrapper
 
@@ -459,7 +459,7 @@ const defaultOptions = {
   是否在代码块的 `<pre>` 标签上添加 `v-pre` 指令。
 
 - 参考：
-  - [指南 > Markdown > 语法扩展 > 代码块 > 添加 v-pre](../guide/markdown.md#添加-v-pre)
+  - [指南 > Markdown > 语法扩展 > 代码块 > 添加 v-pre](../develop/markdown.md#添加-v-pre)
 
 #### markdown.code.vPre.inline
 
@@ -472,7 +472,7 @@ const defaultOptions = {
   是否在行内代码的 `<code>` 标签上添加 `v-pre` 指令。
 
 - 参考：
-  - [指南 > Markdown > 语法扩展 > 代码块 > 添加 v-pre](../guide/markdown.md#添加-v-pre)
+  - [指南 > Markdown > 语法扩展 > 代码块 > 添加 v-pre](../develop/markdown.md#添加-v-pre)
 
 ### markdown.component
 
@@ -499,7 +499,7 @@ const defaultOptions = {
   设置为 `false` 可以禁用该插件。
 
 - 参考：
-  - [指南 > Markdown > 语法扩展 > Emoji](../guide/markdown.md#emoji)
+  - [指南 > Markdown > 语法扩展 > Emoji](../develop/markdown.md#emoji)
 
 ### markdown.frontmatter
 
@@ -523,7 +523,7 @@ const defaultOptions = {
   设置为 `false` 可以禁用该插件。
 
 - 参考：
-  - [指南 > 页面 > Frontmatter](../guide/page.md#frontmatter)
+  - [指南 > 页面 > Frontmatter](../develop/page.md#frontmatter)
   - [Node API > Page 属性 > frontmatter](./node-api.md#frontmatter)
   - [Node API > Page 属性 > excerpt](./node-api.md#excerpt)
 
@@ -577,7 +577,7 @@ const defaultOptions = {
   设置为 `false` 可以禁用该插件。
 
 - 参考：
-  - [指南 > Markdown > 语法扩展 > 导入代码块](../guide/markdown.md#导入代码块)
+  - [指南 > Markdown > 语法扩展 > 导入代码块](../develop/markdown.md#导入代码块)
 
 #### markdown.importCode.handleImportPath
 
@@ -602,7 +602,7 @@ const defaultOptions = {
   设置为 `false` 可以禁用该插件。
 
 - 参考：
-  - [指南 > Markdown > 语法扩展 > 链接](../guide/markdown.md#链接)
+  - [指南 > Markdown > 语法扩展 > 链接](../develop/markdown.md#链接)
 
 #### markdown.links.internalTag
 
@@ -667,7 +667,7 @@ const defaultOptions = {
   设置为 `false` 可以禁用该插件。
 
 - 参考：
-  - [指南 > Markdown > 语法扩展 > 目录](../guide/markdown.md#目录)
+  - [指南 > Markdown > 语法扩展 > 目录](../develop/markdown.md#目录)
 
 ## 插件配置
 
@@ -682,7 +682,7 @@ const defaultOptions = {
   该配置项接收一个数组，其中的每一个数组项是一个或一组插件。
 
 - 参考：
-  - [指南 > 插件](../guide/plugin.md)
+  - [指南 > 插件](../develop/plugin.md)
 
 ## 插件 API
 

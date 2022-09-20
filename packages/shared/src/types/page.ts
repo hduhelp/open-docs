@@ -23,7 +23,7 @@ export type PageBase<
    *
    * Might be overridden by permalink
    *
-   * @example '/guide/index.html'
+   * @example '/develop/index.html'
    * @example '/2020/02/02/hello-world.html'
    */
   path: string

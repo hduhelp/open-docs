@@ -47,7 +47,7 @@ export type Page<
      *
      * If the page does not come from a file, it would be `null`
      *
-     * @example '/guide/index.html'
+     * @example '/develop/index.html'
      */
     pathInferred: string | null
 

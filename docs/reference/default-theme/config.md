@@ -29,7 +29,7 @@ export default {
   该配置项仅能在默认主题内生效，注意不要和 [站点配置](../config.md#locales) 中的 `locales` 混淆。
 
 - 参考：
-  - [指南 > 多语言支持](../../guide/i18n.md)
+  - [指南 > 多语言支持](../../develop/i18n.md)
 
 ## Locale 配置
 
@@ -188,7 +188,7 @@ export default {
 ```
 
 - 参考：
-  - [指南 > 静态资源 > Public 文件](../../guide/assets.md#public-文件)
+  - [指南 > 静态资源 > Public 文件](../../develop/assets.md#public-文件)
 
 ### logoDark
 
@@ -356,7 +356,7 @@ export default {
       '/guide/': [
         {
           text: 'Guide',
-          children: ['/guide/README.md', '/guide/getting-started.md'],
+          children: ['/develop/README.md', '/develop/getting-started.md'],
         },
       ],
       '/reference/': [

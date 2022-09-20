@@ -137,7 +137,7 @@ export default defineUserConfig({
 
 ### 在修改 `base` 后引用 Public 文件
 
-与 Vite 不同， Webpack 不会为 Public 文件自动处理 `base`。因此如果你修改了网站的 `base`，建议你在引用 Public 图片文件时使用 [Base Helper](../../guide/assets.md#base-helper)。
+与 Vite 不同， Webpack 不会为 Public 文件自动处理 `base`。因此如果你修改了网站的 `base`，建议你在引用 Public 图片文件时使用 [Base Helper](../../develop/assets.md#base-helper)。
 
 ### 使用默认主题
 

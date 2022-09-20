@@ -3,8 +3,8 @@ import { version } from '../meta.js'
 
 export const navbarZh: NavbarConfig = [
   {
-    text: '指南',
-    link: '/guide/',
+    text: '开发文档',
+    link: '/develop/',
   },
   {
     text: '参考',
@@ -114,23 +114,6 @@ export const navbarZh: NavbarConfig = [
             link: 'https://github.com/vuepress/awesome-vuepress',
           },
         ],
-      },
-    ],
-  },
-  {
-    text: `v${version}`,
-    children: [
-      {
-        text: '更新日志',
-        link: 'https://github.com/vuepress/vuepress-next/blob/main/CHANGELOG.md',
-      },
-      {
-        text: 'v1.x',
-        link: 'https://v1.vuepress.vuejs.org/',
-      },
-      {
-        text: 'v0.x',
-        link: 'https://v0.vuepress.vuejs.org/',
       },
     ],
   },

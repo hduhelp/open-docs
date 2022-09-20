@@ -99,7 +99,7 @@ pageClass: custom-page-class
   ```
 
 - 参考：
-  - [指南 > 静态资源 > Public 文件](../../guide/assets.md#public-文件)
+  - [指南 > 静态资源 > Public 文件](../../develop/assets.md#public-文件)
 
 ### heroImageDark
 

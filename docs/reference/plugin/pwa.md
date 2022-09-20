@@ -28,7 +28,7 @@ export default {
 
 为了使你的网站符合 PWA 的要求，你需要创建一个 [Web app manifests](https://developer.mozilla.org/zh-CN/docs/Web/Manifest) 文件，并且为你的 PWA 设置图标、颜色等信息。
 
-你需要将你的 Manifest 文件和图标放置在 [Public 目录](../../guide/assets.md#public-文件) 下。在下述的示例中，我们假设你正在使用默认的 Public 目录 `.vuepress/public` 。
+你需要将你的 Manifest 文件和图标放置在 [Public 目录](../../develop/assets.md#public-文件) 下。在下述的示例中，我们假设你正在使用默认的 Public 目录 `.vuepress/public` 。
 
 1. 创建 Manifest 文件
 

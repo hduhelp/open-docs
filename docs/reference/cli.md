@@ -60,7 +60,7 @@ Options:
 
 ## build
 
-将你的 VuePress 站点构建成静态文件，以便你进行后续[部署](../guide/deployment.md)。
+将你的 VuePress 站点构建成静态文件，以便你进行后续[部署](../develop/deployment.md)。
 
 ```bash
 Usage:

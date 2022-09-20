@@ -36,7 +36,7 @@ VuePress 会使用 [markdown-it](https://github.com/markdown-it/markdown-it) 来
 ```bash
 └─ docs
    └─ zh
-      ├─ guide
+      ├─ develop
       │  ├─ getting-started.md
       │  ├─ markdown.md    # <- 我们在这里
       │  └─ README.md

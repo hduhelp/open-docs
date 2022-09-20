@@ -10,9 +10,7 @@ import { defaultTheme } from '@vuepress/theme-default'
 import { getDirname, path } from '@vuepress/utils'
 import {
   head,
-  navbarEn,
   navbarZh,
-  sidebarEn,
   sidebarZh,
 } from './configs/index.js'
 
@@ -42,7 +40,7 @@ export default defineUserConfig({
   // configure default theme
   theme: defaultTheme({
     logo: '/images/hero.png',
-    repo: 'vuepress/vuepress-next',
+    repo: 'hduhelp/open-docs',
     docsDir: 'docs',
 
     // theme-level locales config

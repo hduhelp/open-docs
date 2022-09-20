@@ -388,7 +388,7 @@ export default {
   该 Page 的路由路径。
 
 - 参考：
-  - [指南 > 页面 > 路由](../guide/page.md#路由)
+  - [指南 > 页面 > 路由](../develop/page.md#路由)
   - [Node API > Page 属性 > pathInferred](#pathinferred)
 
 ### title
@@ -575,7 +575,7 @@ interface MarkdownLink {
   - `'/foo.html'`
 
 - 参考：
-  - [指南 > 页面 > 路由](../guide/page.md#路由)
+  - [指南 > 页面 > 路由](../develop/page.md#路由)
   - [Node API > Page 属性 > path](#path)
 
 ### pathLocale

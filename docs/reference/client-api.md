@@ -88,7 +88,7 @@
   在 URL 前添加站点 [base](./config.md#base) 前缀。
 
 - 参考：
-  - [指南 > 静态资源 > Base Helper](../guide/assets.md#base-helper)
+  - [指南 > 静态资源 > Base Helper](../develop/assets.md#base-helper)
 
 ## 常量
 

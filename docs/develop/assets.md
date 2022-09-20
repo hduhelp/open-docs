@@ -30,7 +30,7 @@
    |  └─ public
    |     └─ images
    |        └─ hero.png  # <- Logo 文件
-   └─ guide
+   └─ develop
       └─ assets.md       # <- 我们在这里
 ```
 

@@ -122,7 +122,7 @@ layout: CustomLayout
 
 - 参考：
   - [Frontmatter > permalinkPattern](#permalinkpattern)
-  - [指南 > 页面 > 路由](../guide/page.md#路由)
+  - [指南 > 页面 > 路由](../develop/page.md#路由)
   - [Node API > Page 属性 > permalink](./node-api.md#permalink)
 
 ## permalinkPattern
