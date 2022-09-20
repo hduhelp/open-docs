@@ -2,21 +2,44 @@ import type { SidebarConfig } from '@vuepress/theme-default'
 
 export const sidebarZh: SidebarConfig = {
   '/develop/': [
+    '/develop/README.md',
+    '/develop/get-access-token.md',
     {
-      text: '指南',
+      text: '公共 API',
+      collapsible: true,
       children: [
-        '/develop/README.md',
-        '/develop/getting-started.md',
-        '/develop/configuration.md',
-        '/develop/page.md',
-        '/develop/markdown.md',
-        '/develop/assets.md',
-        '/develop/i18n.md',
-        '/develop/deployment.md',
-        '/develop/theme.md',
-        '/develop/plugin.md',
-        '/develop/bundler.md',
-        '/develop/migration.md',
+        '/develop/public/time.md',
+      ],
+    },
+    {
+      text: '用户 API',
+      collapsible: true,
+      children: [
+        '/develop/user/model.md',
+        '/develop/user/info.md',
+      ],
+    },
+    {
+      text: '学习 API',
+      collapsible: true,
+      children: [
+        '/develop/teaching/schedule-now.md',
+        '/develop/teaching/schedule.md',
+      ],
+    },
+    {
+      text: '后勤 API',
+      collapsible: true,
+      children: [
+        '/develop/logistics/card.md',
+        '/develop/logistics/electric.md',
+      ],
+    },
+    {
+      text: '通知 API',
+      collapsible: true,
+      children: [
+        '/develop/notify/notify.md',
       ],
     },
   ],

@@ -12,7 +12,7 @@ import {
   head,
   navbarZh,
   sidebarZh,
-} from './configs/index.js'
+} from './configs'
 
 const __dirname = getDirname(import.meta.url)
 const isProd = process.env.NODE_ENV === 'production'
@@ -28,8 +28,8 @@ export default defineUserConfig({
   locales: {
     '/': {
       lang: 'zh-CN',
-      title: 'VuePress',
-      description: 'Vue 驱动的静态网站生成器',
+      title: '杭电助手开发文档',
+      description: '杭电助手开发文档',
     },
   },
 
