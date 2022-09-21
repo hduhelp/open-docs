@@ -8,6 +8,7 @@
 git clone git@github.com:hduhelp/open-docs.git
 cd bot-docs
 pnpm install
+pnpm build
 pnpm docs:dev
 ```
 更多命令请见 [contributing.md](./contributing.md)
