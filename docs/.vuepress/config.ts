@@ -29,7 +29,7 @@ export default defineUserConfig({
     '/': {
       lang: 'zh-CN',
       title: '杭电助手开发文档',
-      description: '杭电助手开发文档',
+      description: '文档正在建设中……',
     },
   },
 

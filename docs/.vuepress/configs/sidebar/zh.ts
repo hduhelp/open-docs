@@ -23,6 +23,8 @@ export const sidebarZh: SidebarConfig = {
       text: '学生/教师 API',
       collapsible: true,
       children: [
+        '/develop/teaching/person-info.md',
+        '/develop/teaching/student-info.md',
         '/develop/teaching/schedule-now.md',
         '/develop/teaching/schedule.md',
       ],
@@ -53,7 +55,7 @@ export const sidebarZh: SidebarConfig = {
       text: '钉钉 API',
       collapsible: true,
       children: [
-
+        '/develop/dingtalk/new-group.md'
       ],
     },
     {
@@ -63,6 +65,7 @@ export const sidebarZh: SidebarConfig = {
 
       ],
     },
-    '/develop/contributing/contributing.md'
+    '/develop/contributing/contributing.md',
+    '/develop/deprecated.md'
   ],
 }
