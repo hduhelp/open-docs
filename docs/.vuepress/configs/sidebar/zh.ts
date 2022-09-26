@@ -27,6 +27,7 @@ export const sidebarZh: SidebarConfig = {
         '/develop/teaching/student-info.md',
         '/develop/teaching/schedule-now.md',
         '/develop/teaching/schedule.md',
+        '/develop/teaching/scholarship.md',
       ],
     },
     {
