@@ -14,7 +14,6 @@ jobs:
 
     env:
       NODE_VERSION: '16'
-      QCLOUD_BUCKET: 'open-docs-1258813882'
       QCLOUD_HDUHELP_BUCKET: open-docs-1307730341
 
     steps:
@@ -36,17 +35,6 @@ jobs:
 
       - name: Build documentation site
         run: pnpm docs:release
-
-      - name: Deploy to Inkwire Tencent COS
-        env:
-          SECRET_ID: ${{ secrets.OPEN_DOCS_QCLOUD_KEY }}
-          SECRET_KEY: ${{ secrets.OPEN_DOCS_QCLOUD_SECRET }}
-          BUCKET: ${{ env.QCLOUD_BUCKET }}
-          REGION: ap-shanghai
-        run: |
-          sudo pip install coscmd
-          coscmd config -a ${SECRET_ID} -s ${SECRET_KEY} -b ${BUCKET} -e cos.accelerate.myqcloud.com
-          coscmd upload -rs docs/.vuepress/dist/ /docs/
 
       - name: Deploy to HDUHELP Tencent COS
         env:
