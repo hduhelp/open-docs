@@ -2,9 +2,11 @@
 
 ## 接口特征
 
+旧版接口：URL以 https://api.hduhelp.com/base/ 为前缀
+
 新版接口：URL以 https://api.hduhelp.com/salmon_base/ 为前缀
 
-旧版接口：URL以 https://api.hduhelp.com/base/ 为前缀
+全新的新版（salmon_base）接口较旧版（base）接口具有更丰富的功能、更高效、更规范、更可控等优势。
 
 
 ## 部分接口迁移建议
