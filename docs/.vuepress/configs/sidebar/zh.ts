@@ -16,6 +16,7 @@ export const sidebarZh: SidebarConfig = {
       collapsible: true,
       children: [
         '/develop/user/model.md',
+        '/develop/user/get.md',
         '/develop/user/info.md',
       ],
     },
