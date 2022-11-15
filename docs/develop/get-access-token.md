@@ -41,7 +41,17 @@ Method:GET
     "refresh_token": "123456",
     "refresh_token_expire": 123456789,
     "staff_id": "12345678",
+    "staff_name": "张三",
+    "staff_type": "1",
     "user_id": "123-123-123-123"
   }
 }
 ```
+
+### staff_type 对应关系
+
+| staff_type | 对应身份 |
+|------------|------|
+| 1          | 本科生  |
+| 2          | 研究生  |
+| 3          | 教职工  |
