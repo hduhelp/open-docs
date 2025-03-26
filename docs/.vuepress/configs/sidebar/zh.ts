@@ -70,4 +70,28 @@ export const sidebarZh: SidebarConfig = {
     '/develop/contributing/contributing.md',
     '/develop/deprecated.md'
   ],
+  
+  '/about/': [
+    {
+      text: '功能介绍',
+      collapsible: true,
+      children: [
+        '/about/README.md',
+        '/about/ai/ai.md',
+        '/about/birthday/birthday.md',
+        '/about/card/card.md',
+        '/about/course/course.md',
+        '/about/coursesimulate/coursesimulate.md',
+        '/about/electric/electric.md',
+        '/about/emptyclassroom/emptyclassroom.md',
+        '/about/exam/exam.md',
+        '/about/examresult/examresult.md',
+        '/about/gradegroup/gradegroup.md',
+        '/about/management/management.md',
+        '/about/message/message.md',
+        '/about/schedule/schedule.md',
+        '/about/scholarship/scholarship.md',
+      ],
+    },
+  ],
 }
